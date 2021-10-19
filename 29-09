@@ -1,0 +1,10 @@
+def even(n):  
+    i = 2
+    array = list()
+    while i <= 50:
+        array.append(i)
+        i = i+2
+    return array
+
+
+print(even(50))
