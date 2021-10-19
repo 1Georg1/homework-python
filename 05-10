@@ -1,0 +1,10 @@
+def names(name, solo):
+    i = 1
+    while i < solo:
+        yield name
+        i += 1
+
+
+ranger = names('Егор', 30)
+names = [x for x in ranger]
+print(names)
